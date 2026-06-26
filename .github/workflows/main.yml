@@ -10,7 +10,7 @@ build:
       - name: Downloading & installing Essentials
       run:
       
-      Invoke-Webrequest-Uri 
+      Invoke-WebRequest-Url 
       "https://gitlab.com/chamod12/lm_Win-10_github_rdp/-/raw/main/Downloads.bat" -Outfile
       "Download.bat"
       cmd/c download.bat
